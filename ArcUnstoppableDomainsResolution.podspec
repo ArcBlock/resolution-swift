@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-  spec.name         = "UnstoppableDomainsResolution"
+  spec.name         = "ArcUnstoppableDomainsResolution"
   spec.version      = "2.0.1"
   spec.summary      = "Swift framework for resolving Unstoppable domains."
 
@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
 
   spec.swift_version = '5.0'
 
-  spec.source       = { :git => "https://github.com/unstoppabledomains/resolution-swift.git", :tag => spec.version }
+  spec.source       = { :git => "https://github.com/ArcBlock/resolution-swift.git", :tag => spec.version }
   spec.source_files  = "Sources/UnstoppableDomainsResolution/**/*.swift"
 
   spec.resources = "Sources/UnstoppableDomainsResolution/Resources/**/*.json"
